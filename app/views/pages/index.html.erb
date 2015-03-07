@@ -1,0 +1,14 @@
+<% @users.each do |u| %>
+<p> <% u.username %> </p>
+<p> <% u.age %> </p>
+<p> <% u.email %> </p>
+<%end%>
+
+<% @cats.each do |c| %>
+<p> <% c.name %> </p>
+<%end%>
+
+<% @todo_list.each do |t| %>
+<p> <% t.tasks %> </p>
+<p> <% t.done%> </p>
+<%end%>
